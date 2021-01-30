@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Место Россия</title>
+  <link rel="stylesheet" type="text/css" href="./pages/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <img src="./images/logo_mesto.png" alt="Место" class="header__logo">
+    </header>
+    <main class="content">
+      <section class="profile">
+        <div class="profile__area">
+          <div class="profile__avatar"></div>
+          <div class="profile__info">
+            <div class="profile__name-button">
+              <h1 class="profile__text-name">Жак-Ив Кусто</h1>
+              <button type="button" class="profile__edit-button" aria-label="изменить профиль"></button>
+            </div>
+            <p class="profile__text-description">Исследователь океана</p>
+          </div>
+        </div>
+        <button type="button" class="profile__add-button" aria-label="добавить место"></button>
+      </section>
+      <ul class="travel-cards">
+        <li class="travel-card">
+          <img src="./images/karachaevsk.png" alt="Карачаевск" class="travel-card__image">
+          <div class="travel-card__description">
+            <p class="travel-card__text">Карачаевск</p>
+            <button type="button" class="travel-card__like" aria-label="лайк"></button>
+          </div>
+        </li>
+        <li class="travel-card">
+          <img src="./images/elbrus.png" alt="Гора Эльбрус" class="travel-card__image">
+          <div class="travel-card__description">
+            <p class="travel-card__text">Гора Эльбрус</p>
+            <button type="button" class="travel-card__like" aria-label="лайк"></button>
+          </div>
+        </li>
+        <li class="travel-card">
+          <img src="./images/dombai.png" alt="Домбай" class="travel-card__image">
+          <div class="travel-card__description">
+            <p class="travel-card__text">Домбай</p>
+            <button type="button" class="travel-card__like" aria-label="лайк"></button>
+          </div>
+        </li>
+        <li class="travel-card">
+          <img src="./images/elbrus.png" alt="Гора Эльбрус" class="travel-card__image">
+          <div class="travel-card__description">
+            <p class="travel-card__text">Гора Эльбрус</p>
+            <button type="button" class="travel-card__like" aria-label="лайк"></button>
+          </div>
+        </li>
+        <li class="travel-card">
+          <img src="./images/dombai.png" alt="Домбай" class="travel-card__image">
+          <div class="travel-card__description">
+            <p class="travel-card__text">Домбай</p>
+            <button type="button" class="travel-card__like" aria-label="лайк"></button>
+          </div>
+        </li>
+        <li class="travel-card">
+          <img src="./images/karachaevsk.png" alt="Карачаево-Черкесия" class="travel-card__image">
+          <div class="travel-card__description">
+            <p class="travel-card__text">Карачаево-Черкесия</p>
+            <button type="button" class="travel-card__like" aria-label="лайк"></button>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+    </footer>
+    <section class="popup">
+      <div class="popup__container">
+        <button type="button" class="popup__close-icon" aria-label="закрыть окно"></button>
+        <div class="popup__form">
+          <p class="popup__title">Редактировать профиль</p>
+          <input class="popup__input popup__input_name" type="text" name="profileName" required>
+          <input class="popup__input popup__input_description" type="text" name="profileDescription" required>
+          <button class="popup__save-changes" type="submit" name="submit">Сохранить</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="./popup.js"></script>
+</body>
+</html>

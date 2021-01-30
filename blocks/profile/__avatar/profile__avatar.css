@@ -1,0 +1,10 @@
+.profile__avatar {
+  width: 120px;
+  height: 120px;
+  background-image: url(../../../images/cousteau.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
