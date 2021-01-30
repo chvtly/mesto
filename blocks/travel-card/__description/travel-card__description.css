@@ -1,0 +1,7 @@
+.travel-card__description {
+  width: 246px;
+  margin-left: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

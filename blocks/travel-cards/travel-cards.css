@@ -1,0 +1,9 @@
+.travel-cards {
+  max-width: 880px;
+  margin: 0 auto 66px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 282px);
+  gap: 20px 17px;
+  padding: 0;
+  justify-content: center;
+}
