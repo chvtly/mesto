@@ -5,18 +5,25 @@
   color: #fff;
   border: 0;
   margin-top: 18px;
+  border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 .popup__save-changes:hover {
-  border-radius: 2px;
   opacity: 0.8;
   transition: 0.5s;
   cursor: pointer;
 }
 
-@media (min-width: 320px) and (max-width: 510px) {
+@media screen and (max-width: 510px) {
   .popup__save-changes {
     width: 238px;
     height: 46px;
+    font-size: 14px;
+    line-height: 17px;
   }
 }

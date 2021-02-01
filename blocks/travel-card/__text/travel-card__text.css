@@ -1,4 +1,7 @@
 .travel-card__text {
+  margin: 0;
+  padding: 0;
+  width: 222px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 900;
