@@ -8,3 +8,9 @@
   box-sizing: border-box;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 510px) {
+  .profile__avatar {
+    margin-bottom: 26px;
+  }
+}

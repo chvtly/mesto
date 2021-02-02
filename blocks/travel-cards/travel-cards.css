@@ -7,3 +7,9 @@
   padding: 0;
   justify-content: center;
 }
+
+@media screen and (max-width: 510px) {
+  .travel-cards {
+    margin-bottom: 48px;
+  }
+}
