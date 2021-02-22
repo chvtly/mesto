@@ -134,8 +134,9 @@ function addCard(evt) {
   travelCardsElements.prepend(cardItem);
   popupCardTitle.value = '';
   popupCardLink.value = '';
+  closePopupCard();
 }
-// обрааботчик функции добавления карточки
+// обработчик функции добавления карточки
 popupCardForm.addEventListener('submit', addCard);
 
 // функция открытия попап для добавления карточки
