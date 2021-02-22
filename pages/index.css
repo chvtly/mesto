@@ -16,6 +16,8 @@
 @import url(../blocks/travel-card/__text/travel-card__text.css);
 @import url(../blocks/travel-card/__description/travel-card__description.css);
 @import url(../blocks/travel-card/__like/travel-card__like.css);
+@import url(../blocks/travel-card/__like/_active/travel-card__like_active.css);
+@import url(../blocks/travel-card/__delete/travel-card__delete.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/popup/popup.css);
@@ -26,4 +28,10 @@
 @import url(../blocks/popup/__input/popup__input.css);
 @import url(../blocks/popup/__save-changes/popup__save-changes.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup-pic/popup-pic.css);
+@import url(../blocks/popup-pic/__container/popup-pic__container.css);
+@import url(../blocks/popup-pic/_opened/popup-pic_opened.css);
+@import url(../blocks/popup-pic/__close-icon/popup-pic__close-icon.css);
+@import url(../blocks/popup-pic/__image/popup-pic__image.css);
+@import url(../blocks/popup-pic/__text/popup-pic__text.css);
 

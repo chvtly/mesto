@@ -1,0 +1,21 @@
+.travel-card__delete {
+  width: 18px;
+  height: 19.3px;
+  background-color: transparent;
+  border-style: none;
+  background-image: url(../../../images/delete_icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  outline: none;
+  position: absolute;
+  top: 20px;
+  right: 19px;
+}
+
+.travel-card__delete:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
+}
