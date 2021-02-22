@@ -16,9 +16,3 @@
   transition: 0.5s;
   cursor: pointer;
 }
-
-.travel-card__like:active {
-  background-image: url(../../../images/like_icon_active.svg);
-  transition: 0.5s;
-  opacity: 1;
-}
